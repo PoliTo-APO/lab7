@@ -49,7 +49,7 @@ def main():
 
     print("{:.1f}".format(ss.get_avg_content_rating("Pulp Fiction")))   # 6.5
     print("{:.1f}".format(ss.get_avg_content_rating("Twin Peaks")))     # 5.2
-    print("{:.1f}".format(ss.get_avg_user_rating("Domenico")))          # 6.6
+    print("{:.1f}".format(ss.get_avg_user_rating("Domenico")))          # 6.5
 
     print("----------------- R4 -----------------")
     ss.watch("Giancarlo", "Freaks and Geeks")
@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
